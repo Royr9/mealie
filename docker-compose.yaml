@@ -1,8 +1,8 @@
 services:
   mealie:
     image: mealie-app
-    build: ../
-    
+    build: ./
+
     container_name: mealie
     restart: always
     ports:
