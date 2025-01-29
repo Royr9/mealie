@@ -19,7 +19,7 @@ services:
       PUID: 1000
       PGID: 1000
       TZ: America/Anchorage
-      BASE_URL: http://localhost:9925
+      BASE_URL: helpless-gilemette-royr9-bb87530a.koyeb.app/
 
 volumes:
   mealie-data:
