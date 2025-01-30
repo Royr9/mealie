@@ -1,6 +1,6 @@
 services:
   mealie:
-    # image: mealie-app
+    image: mealie-app
     build: ./
 
     container_name: mealie
@@ -19,7 +19,7 @@ services:
       PUID: 1000
       PGID: 1000
       TZ: America/Anchorage
-      BASE_URL: helpless-gilemette-royr9-bb87530a.koyeb.app
+      # BASE_URL: helpless-gilemette-royr9-bb87530a.koyeb.app
 
 volumes:
   mealie-data:
