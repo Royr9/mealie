@@ -18,7 +18,7 @@ services:
       ALLOW_SIGNUP: "false"
       PUID: 1000
       PGID: 1000
-      TZ: America/Anchorage
+      # TZ: America/Anchorage
       # BASE_URL: helpless-gilemette-royr9-bb87530a.koyeb.app
 
 volumes:
